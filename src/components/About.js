@@ -3,7 +3,12 @@ import Languages from "./Languages"
 export default function About(props) {
     return <>
         {/* <Languages/> */}
+        <br />
+        <div className="container-fluid m-auto text-center">
+            <h3>About me</h3>
+        </div>
         <div className="col-lg-10 col-md-10 col-xs-12 col-sm-12 m-auto rounded my-5 shadow-lg">
+
             <div class="accordion accordion-flush rounded shadow-lgx" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
@@ -59,6 +64,6 @@ export default function About(props) {
                     </div>
                 </div>
             </div>
-            </div>
-        </>
+        </div>
+    </>
 }

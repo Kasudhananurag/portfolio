@@ -4,6 +4,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import Projects from "./Projects";
 import Contact from './Contact';
+import About from "./About";
 
 export default function Home(props) {
     return <>
@@ -28,6 +29,7 @@ export default function Home(props) {
            <Link to="work" ><span className="homelink" >See my work here</span></Link>
         </div>
         <Projects/> <hr />
+        <About/> <hr />
         <Contact />
     </>
 }
